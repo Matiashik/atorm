@@ -29,8 +29,9 @@ static gboolean key_press(GtkWidget *window, GdkEventKey *event, gpointer data)
 
 static void entry_activate(GtkEntry *entry, gpointer data)
 {
-    char c[256] = "/bin/sh -c ";
+    char c[256] = "/bin/sh -c \"";
     strcat(c, gtk_entry_get_text(entry));
+    strcat(c, " &\"");
     system(c);
     exit(0);
 }
