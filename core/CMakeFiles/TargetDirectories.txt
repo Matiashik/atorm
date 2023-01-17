@@ -1,0 +1,3 @@
+/home/universai/myfo/atorm/core/CMakeFiles/atorm.dir
+/home/universai/myfo/atorm/core/CMakeFiles/edit_cache.dir
+/home/universai/myfo/atorm/core/CMakeFiles/rebuild_cache.dir
